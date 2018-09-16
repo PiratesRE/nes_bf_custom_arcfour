@@ -35,6 +35,7 @@ static void	bf_arcfour_loop(char *pass, int index, int actlen, char *encrypted) 
 				//for (size_t i = 0, len = 15; i < len; i++) {
 				//	printf("%02hhX", ciphertext[i]);
 				//}
+
 				exit(EXIT_SUCCESS);
 			}
 			free(ciphertext);
